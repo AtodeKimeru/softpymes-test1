@@ -1,3 +1,3 @@
 """
-  4) ordenar los terceros que se tienen en el archivo data.py por identificationNumber
+  4) Mostrar de los terceros que se tienen en el archivo data.py los cualees no poseen cellPhone y email.
 """
