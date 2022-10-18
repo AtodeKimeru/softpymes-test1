@@ -22,6 +22,20 @@ def get_companies():
             'nit': '987654333',
             'dv': '3',
             'branches': [4]
+        },
+        {
+            'id': 4,
+            'name': 'Empresa Cuatro',
+            'nit': '900500630',
+            'dv': '4',
+            'branches': [1,2,3]
+        },
+        {
+            'id': 5,
+            'name': 'Empresa Cinco',
+            'nit': '900802602',
+            'dv': '5',
+            'branches': [2,5]
         }
     ] 
     return companies
@@ -34,32 +48,52 @@ def get_branches():
             'id': 1,
             'name': 'Sucursal Uno',
             'address': 'Cll 123',
-            'isMain': True
+            'isMain': True,
+            'cityName':'Pereira'
         },
         {
             'id': 2,
             'name': 'Sucursal Dos',
             'address': 'Cll 12 # 1-23',
-            'isMain': True
+            'isMain': True,
+            'cityName':'Cali'
         },
         {
             'id': 3,
             'name': 'Sucursal Tres',
             'address': 'Cll 1 # 11-23',
-            'isMain': False
+            'isMain': False,
+            'cityName':'Pereira'
         },
         {
             'id': 4,
             'name': 'Sucursal Cuatro',
             'address': 'Cll 4 # 4-32',
-            'isMain': True
+            'isMain': True,
+            'cityName':'Medellin'
         },
         {
             'id': 5,
             'name': 'Sucursal Cinco',
             'address': 'Cll 5 # 5-43',
-            'isMain': False
+            'isMain': False,
+            'cityName':'Bogota'
+        },
+        {
+            'id': 6,
+            'name': 'Sucursal Seis',
+            'address': 'Cll 6 # 6-45',
+            'isMain': False,
+            'cityName':'Pereira'
+        },
+        {
+            'id': 7,
+            'name': 'Sucursal Siete',
+            'address': 'Cll 7 # 7-56',
+            'isMain': True,
+            'cityName':'Pasto'
         }
+        
     ]     
     return branches
     
@@ -309,52 +343,62 @@ def get_items():
         {
             'code': '001',
             'name': 'Celular',
-            'color': 'BLA'
+            'color': 'BLA',
+            'price': '1150000'
         },
         {
             'code': '002',
             'name': 'Camiseta',
-            'color': 'NEG'
+            'color': 'NEG',
+            'price': '50000'
         },
         {
             'code': '003',
             'name': 'Lapíz',
-            'color': 'NAR'
+            'color': 'NAR',
+            'price': '1000'
         },
         {
             'code': '004',
             'name': 'Lentes',
-            'color': None
+            'color': None,
+            'price': '500000'
         },
         {
             'code': '005',
             'name': 'Zapatos',
-            'color': 'ROS'
+            'color': 'ROS',
+            'price': '170000'
         },
         {
             'code': '006',
             'name': 'Vaso de cristal',
-            'color': None
+            'color': None,
+            'price': '5500'
         },
         {
             'code': '007',
             'name': 'Portail HP',
-            'color': 'ROJ'
+            'color': 'ROJ',
+            'price': '2500000'
         },
         {
             'code': '008',
             'name': 'Cuaderno',
-            'color': None
+            'color': None,
+            'price': '5000'
         },
         {
             'code': '009',
             'name': 'Gorra',
-            'color': 'VER'
+            'color': 'VER',
+            'price': '50000'
         },
         {
             'code': '010',
             'name': 'Balón',
-            'color': None
+            'color': None,
+            'price': '70000'
         }
     ]
     return items
