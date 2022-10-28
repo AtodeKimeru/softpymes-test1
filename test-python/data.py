@@ -28,14 +28,14 @@ def get_companies():
             'name': 'Empresa Cuatro',
             'nit': '900500630',
             'dv': '4',
-            'branches': [1,2,3]
+            'branches': [6]
         },
         {
             'id': 5,
             'name': 'Empresa Cinco',
             'nit': '900802602',
             'dv': '5',
-            'branches': [2,5]
+            'branches': [7]
         }
     ] 
     return companies
@@ -132,7 +132,7 @@ def get_thirds():
         },
         {
             "billAddress1": "CRA 8 NO 6 C 38",
-            "cellPhone": None,
+            "cellPhone": "321687526",
             "cityName": "Cucuta",
             "companyid": 2,
             "email": "",
@@ -177,7 +177,7 @@ def get_thirds():
         },
         {
             "billAddress1": "CRA 9 N 72-35",
-            "cellPhone": None,
+            "cellPhone": "32164782",
             "cityName": "Suarez",
             "companyid": 1,
             "email": "contabilidad@test.com.co",
@@ -237,7 +237,7 @@ def get_thirds():
         },
         {
             "billAddress1": "CRA 8 NO 69 76",
-            "cellPhone": None,
+            "cellPhone": "32565851",
             "cityName": "Jamundí",
             "companyid": 1,
             "email": "",
@@ -267,9 +267,9 @@ def get_thirds():
         },
         {
             "billAddress1": "CRA 8 NO 69 76",
-            "cellPhone": None,
+            "cellPhone": "32105648521",
             "cityName": "Armenia",
-            "companyid": 1,
+            "companyid": 7,
             "email": "",
             "firstname": "",
             "identificationDv": "2",
@@ -344,61 +344,61 @@ def get_items():
             'code': '001',
             'name': 'Celular',
             'color': 'BLA',
-            'price': '1150000'
+            'price': 1150000
         },
         {
             'code': '002',
             'name': 'Camiseta',
             'color': 'NEG',
-            'price': '50000'
+            'price': 50000
         },
         {
             'code': '003',
             'name': 'Lapíz',
             'color': 'NAR',
-            'price': '1000'
+            'price': 1000
         },
         {
             'code': '004',
             'name': 'Lentes',
             'color': None,
-            'price': '500000'
+            'price': 500000
         },
         {
             'code': '005',
             'name': 'Zapatos',
             'color': 'ROS',
-            'price': '170000'
+            'price': 170000
         },
         {
             'code': '006',
             'name': 'Vaso de cristal',
             'color': None,
-            'price': '5500'
+            'price': 5500
         },
         {
             'code': '007',
             'name': 'Portail HP',
             'color': 'ROJ',
-            'price': '2500000'
+            'price': 2500000
         },
         {
             'code': '008',
             'name': 'Cuaderno',
             'color': None,
-            'price': '5000'
+            'price': 5000
         },
         {
             'code': '009',
             'name': 'Gorra',
             'color': 'VER',
-            'price': '50000'
+            'price': 50000
         },
         {
             'code': '010',
             'name': 'Balón',
             'color': None,
-            'price': '70000'
+            'price': 0
         }
     ]
     return items
