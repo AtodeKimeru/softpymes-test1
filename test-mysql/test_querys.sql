@@ -5,8 +5,7 @@ Teniendo en cuenta los archivos:
 Generar scripts que realicen las siguientes consultas:
 */
 
-/* 1. Consultar los items que pertenezcan a la compañia con ID #3 (debe utilizar INNER JOIN), 
-   en donde dicha compañia contenga una 'A' en su nombre */
+/* 1. Consultar los items que pertenezcan a la compañia con ID #3 (debe utilizar INNER JOIN) */
 
 
 /* 2. Mostrar los items para los cuales su precio se encuentre en el rango 70000 a 90000*/
