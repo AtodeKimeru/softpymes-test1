@@ -90,6 +90,15 @@ COMMIT;
 
 /* 10. Cree una función que permita insertar registros en la tabla colores*/
 
+DELIMITER $$
+CREATE FUNCTION insertColor(code_color VARCHAR(3), color VARCHAR(25))
+    RETURNS VARCHAR(14)
+    DETERMINISTIC
+    BEGIN
+        INSERT INTO colors (code, `name`) VALUES (code_color, UPPER(color));
+        RETURN 'register added';
+    END $$
+DELIMITER ;
 
 /* 11. Eliminar todos los datos de la tabla colores */
 
